@@ -81,7 +81,7 @@ url = f"https://newsdata.io/api/1/news?apikey={API_KEY}&country=in&category=tech
 ```
 
 ### Changing Update Frequency
-Edit the `time.sleep(3)` line in `news_bot.py`:
+Edit the `time.sleep(60)` line in `news_bot.py`:
 ```python
 time.sleep(3600)  # 1 hour
 time.sleep(1800)  # 30 minutes  
